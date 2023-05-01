@@ -5,6 +5,7 @@ import Phone from '../../assets/celular.png'
 import Google from '../../assets/google.png'
 import Apple from '../../assets/apple.png'
 import Vector from '../../assets/Vector.png'
+import Bolha from '../../assets/bolha.svg'
 
 function Section(){
     return(
@@ -63,7 +64,7 @@ function Section(){
                     </div> 
             </div>
             
-            
+            <img className='m-auto w-full mt-10' src={Bolha} alt="" />
         </div>
     )
 }

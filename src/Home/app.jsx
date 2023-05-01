@@ -1,3 +1,4 @@
+import Cards from "./components/Cards"
 import Section from "./components/Section"
 import Header from "./components/header"
 
@@ -6,6 +7,7 @@ function Home(){
         <>
             <Header/>
             <Section/>
+            <Cards/>
         </>
     )
 }

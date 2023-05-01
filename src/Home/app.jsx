@@ -1,4 +1,5 @@
 import Cards from "./components/Cards"
+import Footer from "./components/Footer"
 import Section from "./components/Section"
 import Suporte from "./components/Suporte"
 import Header from "./components/header"
@@ -10,6 +11,7 @@ function Home(){
             <Section/>
             <Cards/>
             <Suporte/>
+            <Footer/>
         </>
     )
 }

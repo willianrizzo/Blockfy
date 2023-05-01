@@ -20,7 +20,7 @@ function Header(){
             </div>
             
             <div className='w-full bg-[#111111] bg-opacity-80'>
-                <p className='text-center text-[#FFAD0D] opacity-80 text-sm p-1.5' >Registre-se agora — Ganhe até 100 USDT de desconto na taxa de trading (para usuários verificados) - <span className='border-b-2 border-[#FFAD0D] hover:text-white transition-all duration-200'>Saiba Mais!</span></p>
+                <p className='text-center text-[#FFAD0D] opacity-80 text-sm p-1.5' >Registre-se agora — Ganhe até 100 USDT de desconto na taxa de trading (para usuários verificados) - <span className='border-b-2 border-[#FFAD0D] hover:text-white transition-all duration-200 hover:border-white'>Saiba Mais!</span></p>
                 
             </div>
         </div>

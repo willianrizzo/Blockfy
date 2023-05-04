@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Logo from '../../assets/logo.png'
 import Modo from '../../assets/mode.png'
 
@@ -13,7 +14,7 @@ function Header(){
                 </div>
 
                 <div className='flex gap-10 items-center ml-auto mr-10'>
-                    <button className='text-lg text-[#FFAD0D] hover:text-black transition-all hover:scale-110 duration-200'>Entrar</button>
+                    <Link to='/login' className='text-lg text-[#FFAD0D] hover:text-black transition-all hover:scale-110 duration-200'>Entrar</Link>
                     <button className='text-lg text-[#FFAD0D] bg-[#111111] bg-opacity-80 p-2 rounded-md hover:bg-[#FFAD0D] hover:text-white transition-all hover:scale-110 duration-200' >Abra sua conta</button>
                     <img src={Modo} alt="" />
                 </div>

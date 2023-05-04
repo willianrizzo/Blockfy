@@ -3,8 +3,8 @@ import FotoSobre from '../../assets/sobre_foto.jpg'
 
 function Sobre(){
     return(
-        <div className="w-[75%] h-[700px]  m-auto mt-20 flex justify-center items-center ">
-            <div className="w-[35%] pt-10">
+        <div className="w-[75%] h-[700px]  m-auto mt-20 flex justify-center items-center gap-28 ">
+            <div className="w-[35%]  pt-10">
                 <h2 className="text-center text-5xl text-[#FFAD0D]">Sobre a Blockfy</h2>
                 <br />
 
@@ -13,7 +13,7 @@ function Sobre(){
                 <br />
                 <p className="text-lg ml-10">Somos uma das maiores plataformas de serviços financeiros digitais no mundo, servindo 80 milhões de clientes no Brasil, México e Colômbia. Tudo que entregamos é simples, intuitivo, conveniente, de baixo custo, empoderador e humano. Guiando-nos sempre por nossa missão, estamos contribuindo para aumentar o acesso financeiro na América Latina.</p>
             </div>
-            <img className='h-[340px] flex justify-center items-center' src={FotoSobre} alt="" />
+            <img className='h-[380px] flex justify-center items-center rounded-lg' src={FotoSobre} alt="" />
         </div>
     )
 }

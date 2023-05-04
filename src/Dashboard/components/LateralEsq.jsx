@@ -3,31 +3,49 @@ import Casa from '../../assets/casa.png'
 import Grafico from '../../assets/grafico.png'
 import Carteira from '../../assets/carteira.png'
 import Perfil from '../../assets/perfil.png'
+import Config from '../../assets/config.png'
+import Sair from '../../assets/sair.png'
+import { Link } from 'react-router-dom'
 
 function LateralEsq(){
     return(
         <div className='w-[20%] h-[100vh] bg-gray-100'>
-            <img className='w-[700px] pt-10 pl-14' src={Logo} alt="" />
+            <Link to='/'>
+                <img className='w-[700px] pt-10 pl-14' src={Logo} alt="" />
+            </Link>
+           
 
-            <div className='w-[80%] mt-[45%] flex flex-col gap-14'>
-                <div className='w-[50%] e m-auto flex  gap-5'>
+            <div className='w-[80%] mt-[30%] flex flex-col gap-14 '>
+                <Link className='w-[50%] e m-auto flex  gap-5'>
                     <img src={Casa} alt="" />
                     <p className='text-lg font-semibold'>Dashboard</p>
-                </div>
+                </Link>
 
-                <div className='w-[50%] e m-auto flex  gap-5'>
+                <Link className='w-[50%] e m-auto flex  gap-5'>
                     <img src={Grafico} alt="" />
-                    <p className='text-lg text-gray-700'>Estatísticas</p>
-                </div>
+                    <p className='text-lg text-gray-500'>Estatísticas</p>
+                </Link>
 
-                <div className='w-[50%] e m-auto flex gap-5'>
+                <Link className='w-[50%] e m-auto flex gap-5'>
                     <img src={Carteira} alt="" />
-                    <p className='text-lg font-semibold'>Carteira</p>
-                </div>
+                    <p className='text-lg  text-gray-500'>Carteira</p>
+                </Link>
 
-                <div className='w-[50%] e m-auto flex gap-5 items-center'>
+                <Link className='w-[50%] e m-auto flex gap-5 items-center'>
                     <img src={Perfil} alt="" />
-                    <p className='text-lg font-semibold'>Perfil</p>
+                    <p className='text-lg  text-gray-500'>Perfil</p>
+                </Link>
+
+                <div className='w-[100%] mt-[35%] flex flex-col gap-10 items-center '>
+                    <Link className='w-[50%] e m-auto flex gap-5 items-center'>
+                        <img src={Config} alt="" />
+                        <p className='text-lg  text-gray-500'>Configurações</p>
+                    </Link>
+
+                    <Link to='/' className='w-[50%] e m-auto flex gap-5 items-center'>
+                        <img src={Sair} alt="" />
+                        <p className='text-lg  text-gray-500'>Sair</p>
+                    </Link>
                 </div>
             </div>
         </div>

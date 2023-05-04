@@ -25,7 +25,7 @@ function Section(){
                 </div>
 
                 <div className=' flex flex-col justify-center items-center w-full mt-12 gap-7 '>
-                    <Link to='/' className='w-[130px] h-[35px] bg-black text-white bg-opacity-70 rounded-full  transition-all duration-300 hover:scale-110 hover:invert flex justify-center items-center'>Logar</Link>
+                    <Link to='/dashboard' className='w-[130px] h-[35px] bg-black text-white bg-opacity-70 rounded-full  transition-all duration-300 hover:scale-110 hover:invert flex justify-center items-center'>Logar</Link>
                     <p className='font-medium pb-5 transition-all duration-300 hover:invert'>Não possui conta? <Link to='/cadastro' className='text-white border-b-2 border-black transition-all duration-300 hover:invert'>Cadrastre-se!</Link></p>
                 </div>
                 

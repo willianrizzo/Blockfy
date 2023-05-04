@@ -8,9 +8,9 @@ function Header(){
             <div className=" w-full bg-gray-200 flex">
                 <img className='p-4 ml-10' src={Logo} alt="" />
                 <div className='flex gap-10 items-center'>
-                    <p className='text-lg text-[#FFAD0D] hover:text-black transition-all hover:scale-110 duration-200'>Compre Cripto</p>
-                    <p className='text-lg text-[#FFAD0D] hover:text-black transition-all hover:scale-110 duration-200'>Mercado</p>
-                    <p className='text-lg text-[#FFAD0D] hover:text-black transition-all hover:scale-110 duration-200'>NFT</p>
+                    <Link className='text-lg text-[#FFAD0D] hover:text-black transition-all hover:scale-110 duration-200'>Compre Cripto</Link>
+                    <Link className='text-lg text-[#FFAD0D] hover:text-black transition-all hover:scale-110 duration-200'>Mercado</Link>
+                    <Link className='text-lg text-[#FFAD0D] hover:text-black transition-all hover:scale-110 duration-200'>NFT</Link>
                 </div>
 
                 <div className='flex gap-10 items-center ml-auto mr-10'>

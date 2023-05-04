@@ -15,7 +15,7 @@ function Header(){
 
                 <div className='flex gap-10 items-center ml-auto mr-10'>
                     <Link to='/login' className='text-lg text-[#FFAD0D] hover:text-black transition-all hover:scale-110 duration-200'>Entrar</Link>
-                    <button className='text-lg text-[#FFAD0D] bg-[#111111] bg-opacity-80 p-2 rounded-md hover:bg-[#FFAD0D] hover:text-white transition-all hover:scale-110 duration-200' >Abra sua conta</button>
+                    <Link to='/cadastro' className='text-lg text-[#FFAD0D] bg-[#111111] bg-opacity-80 p-2 rounded-md hover:bg-[#FFAD0D] hover:text-white transition-all hover:scale-110 duration-200' >Abra sua conta</Link>
                     <img src={Modo} alt="" />
                 </div>
             </div>

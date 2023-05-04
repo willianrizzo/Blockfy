@@ -4,6 +4,8 @@ import Home from './app'
 import './index.css'
 import { createBrowserRouter, Router, RouterProvider } from 'react-router-dom'
 import Login from './Login/Login'
+import Cadastro from './Cadastro/Cadastro'
+
 
 
 const router = createBrowserRouter([
@@ -15,6 +17,11 @@ const router = createBrowserRouter([
   {
     path:'/login',
     element:<Login/>,
+  },
+
+  {
+    path:'/cadastro',
+    element:<Cadastro/>,
   },
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(

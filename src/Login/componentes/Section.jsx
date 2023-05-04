@@ -20,13 +20,13 @@ function Section(){
                     <input placeholder='Senha' className='w-[60%] h-[20px] bg-black text-white bg-opacity-70 rounded-full p-5' type="password" />
                 </div> 
                 <div className='flex gap-10 h-10 mt-10 justify-center'>
-                    <button className='bg-black bg-opacity-70 text-white w-[140px] flex justify-center items-center gap-2 rounded-full '><img src={Google} alt="" />Google</button>
-                    <button className='bg-black bg-opacity-70 text-white w-[140px] flex justify-center items-center gap-2 rounded-full '><img src={Apple} alt="" />Apple</button>
+                    <button className='bg-black bg-opacity-70 text-white w-[140px] flex justify-center items-center gap-2 rounded-full  transition-all duration-300 hover:scale-110 hover:invert'><img src={Google} alt="" />Google</button>
+                    <button className='bg-black bg-opacity-70 text-white w-[140px] flex justify-center items-center gap-2 rounded-full   transition-all duration-300 hover:scale-110 hover:invert'><img src={Apple} alt="" />Apple</button>
                 </div>
 
                 <div className=' flex flex-col justify-center items-center w-full mt-12 gap-7 '>
-                    <button className='w-[130px] h-[35px] bg-black text-white bg-opacity-70 rounded-full'>Logar</button>
-                    <p className='font-medium pb-5'>Não possui conta? <span className='text-white border-b-2 border-black'>Cadrastre-se!</span></p>
+                    <button className='w-[130px] h-[35px] bg-black text-white bg-opacity-70 rounded-full  transition-all duration-300 hover:scale-110 hover:invert'>Logar</button>
+                    <p className='font-medium pb-5 transition-all duration-300 hover:invert'>Não possui conta? <span className='text-white border-b-2 border-black transition-all duration-300 hover:invert'>Cadrastre-se!</span></p>
                 </div>
                 
             </div>

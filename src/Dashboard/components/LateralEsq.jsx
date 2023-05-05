@@ -23,28 +23,28 @@ function LateralEsq(){
 
                 <Link className='w-[50%] e m-auto flex  gap-5'>
                     <img src={Grafico} alt="" />
-                    <p className='text-lg text-gray-500'>Estatísticas</p>
+                    <p className='text-lg text-gray-500 hover:text-black duration-300'>Estatísticas</p>
                 </Link>
 
                 <Link className='w-[50%] e m-auto flex gap-5'>
                     <img src={Carteira} alt="" />
-                    <p className='text-lg  text-gray-500'>Carteira</p>
+                    <p className='text-lg  text-gray-500 hover:text-black duration-300'>Carteira</p>
                 </Link>
 
                 <Link className='w-[50%] e m-auto flex gap-5 items-center'>
                     <img src={Perfil} alt="" />
-                    <p className='text-lg  text-gray-500'>Perfil</p>
+                    <p className='text-lg  text-gray-500 hover:text-black duration-300'>Perfil</p>
                 </Link>
 
                 <div className='w-[100%] mt-[35%] flex flex-col gap-10 items-center '>
                     <Link className='w-[50%] e m-auto flex gap-5 items-center'>
                         <img src={Config} alt="" />
-                        <p className='text-lg  text-gray-500'>Configurações</p>
+                        <p className='text-lg  text-gray-500 hover:text-black duration-300'>Configurações</p>
                     </Link>
 
-                    <Link to='/' className='w-[50%] e m-auto flex gap-5 items-center'>
+                    <Link to='/' className='w-[50%] e m-auto flex gap-5 items-center hover:scale-110 duration-300'>
                         <img src={Sair} alt="" />
-                        <p className='text-lg  text-gray-500'>Sair</p>
+                        <p className='text-lg  text-gray-500 hover:text-[#EB5757] duration-300'>Sair</p>
                     </Link>
                 </div>
             </div>

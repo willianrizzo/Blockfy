@@ -1,4 +1,4 @@
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo.svg'
 import Casa from '../../assets/casa.png'
 import Grafico from '../../assets/grafico.png'
 import Carteira from '../../assets/carteira.png'

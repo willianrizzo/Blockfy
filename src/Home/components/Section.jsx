@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom'
+
 import Triangulo from '../../assets/triangulos.png'
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo.svg'
 import User from '../../assets/user.png'
 import Phone from '../../assets/celular.png'
 import Google from '../../assets/google.png'
@@ -16,11 +18,11 @@ function Section(){
                     <div className='flex flex-col justify-center w-[100%] items-center mt-28 absolute z-10 top-32 right-40 bg- '>
                         <h2 className='w-[25%] text-5xl font-semibold'>Aproveite as vantagens da blockchain com a</h2>
                         <img className='w-[25%]' src={Logo} alt="" />
-                        <button className='bg-[#FFAD0D] text-white flex p-4 rounded-sm mt-10 text-[15px] font-semibold gap-2'><img src={User}/>Cadastre-se Cadastre-se com E-mail ou Celular</button>
+                        <Link to='/cadastro' className='bg-[#FFAD0D] text-white flex p-4 rounded-sm mt-10 text-[15px] font-semibold gap-2'><img src={User}/>Cadastre-se Cadastre-se com E-mail ou Celular</Link>
                         <span className='text-[#FFAD0D] mt-3'>Ou continue com</span>
                         <div className='flex gap-10 h-10 mt-3'>
-                            <button className='bg-[#FFAD0D] text-white w-[170px] flex justify-center items-center gap-2 rounded-sm '><img src={Google} alt="" />Google</button>
-                            <button className='bg-[#FFAD0D] text-white w-[170px] flex justify-center items-center gap-2 rounded-sm '><img src={Apple} alt="" />Apple</button>
+                            <Link to ='/cadastro' className='bg-[#FFAD0D] text-white w-[170px] flex justify-center items-center gap-2 rounded-sm '><img src={Google} alt="" />Google</Link>
+                            <Link to='/cadastro' className='bg-[#FFAD0D] text-white w-[170px] flex justify-center items-center gap-2 rounded-sm '><img src={Apple} alt="" />Apple</Link>
                         </div>
                         
                     </div>

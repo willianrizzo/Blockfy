@@ -10,10 +10,10 @@ function Header(){
     useEffect(() => {
         if (theme === "dark"){
             document.documentElement.classList.add("dark");
-            document.getElementById.add(img).src='../../assets/logo2.svg'
+            
         } else {
             document.documentElement.classList.remove("dark");
-            document.getElementById.remove(img).src='../../assets/logo2.svg'
+            
         }
     }, [theme]);
 

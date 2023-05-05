@@ -2,9 +2,27 @@ import { Link } from 'react-router-dom'
 import Logo from '../../assets/logo.svg'
 import Modo from '../../assets/mode.png'
 
+import { useState, useEffect } from "react"
+
 function Header(){
+    const [theme, setTheme] = useState("light");
+
+    useEffect(() => {
+        if (theme === "dark"){
+            document.documentElement.classList.add("dark");
+            document.getElementById.add(img).src='../../assets/logo2.svg'
+        } else {
+            document.documentElement.classList.remove("dark");
+            document.getElementById.remove(img).src='../../assets/logo2.svg'
+        }
+    }, [theme]);
+
+    const handleThemeSwitch = () => {
+        setTheme(theme === "dark" ? "light" : "dark");
+    };
+
     return(
-        <div >
+        <div className=''>
             <div className=" w-full bg-gray-200 flex">
                 <img className='p-4 ml-10' src={Logo} alt="" />
                 <div className='flex gap-10 items-center'>
@@ -16,7 +34,7 @@ function Header(){
                 <div className='flex gap-10 items-center ml-auto mr-10'>
                     <Link to='/login' className='text-lg text-[#FFAD0D] hover:text-black transition-all hover:scale-110 duration-200'>Entrar</Link>
                     <Link to='/cadastro' className='text-lg text-[#FFAD0D] bg-[#111111] bg-opacity-80 p-2 rounded-md hover:bg-[#FFAD0D] hover:text-white transition-all hover:scale-110 duration-200' >Abra sua conta</Link>
-                    <img src={Modo} alt="" />
+                    <img className='cursor-pointer' src={Modo} alt="" onClick={handleThemeSwitch} />
                 </div>
             </div>
             

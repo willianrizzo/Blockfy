@@ -3,6 +3,8 @@ import Fly from '../../assets/fly.svg'
 import Pay from  '../../assets/pay.svg'
 import Din from '../../assets/din.svg'
 import Pontos from '../../assets/pontos.svg'
+import Nft from '../../assets/nft.svg'
+import Blocks from '../../assets/blocks.svg'
 
 function LateralDir(){
     return(
@@ -33,12 +35,36 @@ function LateralDir(){
                 </div>
             </div>
 
-            <div className='w-[80%] m-auto mt-10 flex '>
-                <h2 className='font-semibold text-lg '>Transações recentes</h2>
-                <div>
+            <div className='w-[80%] m-auto mt-10 flex flex-col gap-10 '>
+                <h2 className='font-semibold text-lg text-[#FFAD0D]'>Transações recentes</h2>
+                <div className='flex items-center gap-10'>
+                    <img className='p-3 bg-gray-100 bg-opacity-60 rounded-xl' src={Nft} alt="" />
+                    <div className=''>
+                        <h3 className='text-lg font-semibold'>Venda de NFT</h3>
+                        <p>28 Nov 2021 • 12:01 am </p>
+                    </div>
+                    <p className='text-[#32BE4B] font-semibold'>+ R$212</p>
+                </div>
 
+                <div className='flex items-center gap-10'>
+                    <img className='p-3 bg-gray-100 bg-opacity-60 rounded-xl' src={Blocks} alt="" />
+                    <div className=''>
+                        <h3 className='text-lg font-semibold'>Compra de DogeCoin</h3>
+                        <p>28 Nov 2021 • 12:01 am </p>
+                    </div>
+                    <p className='text-[#EB5757] font-semibold'>- R$212</p>
+                </div>
+
+                <div className='flex items-center gap-10'>
+                    <img className='p-3 bg-gray-100 bg-opacity-60 rounded-xl' src={Blocks} alt="" />
+                    <div className=''>
+                        <h3 className='text-lg font-semibold'>Venda de Etherium</h3>
+                        <p>28 Nov 2021 • 12:01 am </p>
+                    </div>
+                    <p className='text-[#EB5757] font-semibold'>+ R$67</p>
                 </div>
             </div>
+            <p className='text-[#FFAD0D] text-center mt-6'>Ver mais</p>
         </div>
     )
 }

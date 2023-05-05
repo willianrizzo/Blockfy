@@ -1,4 +1,5 @@
 import Centro from "./components/Centro"
+import LateralDir from "./components/LateralDir"
 import LateralEsq from "./components/LateralEsq"
 
 
@@ -8,6 +9,7 @@ function Dashboard(){
             
            <LateralEsq/> 
            <Centro/>
+           <LateralDir/>
         </div>
     )
 }

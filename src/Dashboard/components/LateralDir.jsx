@@ -14,22 +14,22 @@ function LateralDir(){
                 <p className='text-xl font-bold mt-3'>Willian</p>
             </div>
             <div className='w-[80%] flex m-auto gap-10'>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center cursor-pointer'>
                     <img className='bg-gray-100 w-[65px] h-[65px] bg-opacity-60 rounded-xl p-5' src={Fly} alt="" />
                     <p className='mt-2 font-semibold'>Enviar</p>
                 </div>
 
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center cursor-pointer'>
                     <img className='bg-gray-100 w-[65px] h-[65px] bg-opacity-60 rounded-xl p-5' src={Pay} alt="" />
                     <p className='mt-2 font-semibold'>Requerir</p>
                 </div>
 
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center cursor-pointer'>
                     <img className='bg-gray-100 w-[65px] h-[65px] bg-opacity-60 rounded-xl p-5' src={Din} alt="" />
                     <p className='mt-2 font-semibold'>Pagar</p>
                 </div>
 
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center cursor-pointer'>
                     <img className='bg-gray-100 w-[65px] h-[65px] bg-opacity-60 rounded-xl p-5' src={Pontos} alt="" />
                     <p className='mt-2 font-semibold'>Mais</p>
                 </div>
@@ -64,7 +64,7 @@ function LateralDir(){
                     <p className='text-[#EB5757] font-semibold'>+ R$67</p>
                 </div>
             </div>
-            <p className='text-[#FFAD0D] text-center mt-6'>Ver mais</p>
+            <p className='text-[#FFAD0D] text-center mt-6 cursor-pointer'>Ver mais</p>
         </div>
     )
 }

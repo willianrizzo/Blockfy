@@ -8,7 +8,7 @@ import Insta from '../../assets/instagram.png'
 
 function Footer(){
     return(
-        <div className="bg-gray-200 w-[100%] bg-opacity-60 mt-14 ">
+        <div className="bg-gray-200 w-[100%] bg-opacity-60 mt-14 dark:bg-black dark:bg-opacity-75 dark:text-white">
             <div className='w-[35%]  flex m-auto items-center mb-5'>
                 <img className='ml-52 p-2'  src={Logo} alt="" />
             </div>
